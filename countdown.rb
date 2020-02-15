@@ -12,4 +12,6 @@ end
 def countdown_with_sleep(num)
   while num >= 5
   sleep(5.seconds)
-  puts "#"
+  puts "#{num} MINUTE(S)!"
+  num -= 1  
+  
