@@ -11,4 +11,5 @@ end
 
 def countdown_with_sleep(num)
   while nim >= 5
-  sleep.
+  sleep(5.seconds)
+  puts "#"
