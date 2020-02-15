@@ -10,6 +10,6 @@ return 'HAPPY NEW YEAR!'
 end
 
 def countdown_with_sleep(num)
-  while nim >= 5
+  while num >= 5
   sleep(5.seconds)
   puts "#"
